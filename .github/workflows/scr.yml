@@ -1,0 +1,21 @@
+- uses: silverlyra/script-action@v0.2
+  with:
+    # JavaScript source to run (or a script filename)
+    script: >
+      script.js
+
+    # Input data to pass into your script
+    input: 'null'
+
+    # If "json", `input` will be parsed as JSON.
+    # If "string", your script will see the literal string value of `input`.
+    input-encoding: 'json'
+
+    # If "json", the script's return value will be JSON-encoded.
+    # If "string", the script's return value will be output as a string.
+    result-encoding: 'json'
+
+    # Directory to change into
+    cwd: '.'
+
+    github-token: ${{ github.token }}
