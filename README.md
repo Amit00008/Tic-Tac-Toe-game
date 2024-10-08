@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 A simple web-based Tic-Tac-Toe game that you can play against another player (local multiplayer) or implement a future AI mode.
-
+[click here](https://amit00008.github.io/Tic-Tac-Toe-game/) for live Preview!!
 ## Features
 - Classic 3x3 grid Tic-Tac-Toe.
 - Player vs Player mode.
